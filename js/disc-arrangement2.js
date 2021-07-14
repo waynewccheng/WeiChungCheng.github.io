@@ -112,7 +112,7 @@ var dc3 = [
 '#F7C1E6',
 '#F8C7E8',
 '#F9CCEA'];
-var dc = dc3;
+var dc = dc2;
 var color_pilot = new DiscColor(0, dc[0], 30.00, 0.00);
 var discs = [
 new DiscColor(1, dc[1], 28.53, 9.27),
