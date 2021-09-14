@@ -4,11 +4,17 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="0.25" color="#EF005E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#EC0000"></a-sky>
+<!-- Basic cylinder. -->
+<a-cylinder color="crimson" height="3" radius="1.5"></a-cylinder>
+
+<!-- Hexagon. -->
+<a-cylinder color="cyan" segments-radial="6"></a-cylinder>
+
+<!-- Pac-man. -->
+<a-cylinder color="yellow" theta-start="50" theta-length="280" side="double"></a-cylinder>
+
+<!-- Green pipe. -->
+<a-cylinder color="green" open-ended="true"></a-cylinder>
     </a-scene>
   </body>
 </html>
